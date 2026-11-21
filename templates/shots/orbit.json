@@ -1,0 +1,44 @@
+{
+  "template": "orbit",
+  "version": 1,
+  "renderer": "drawOrbit + polarGrid + drawInstrument",
+  "params": {
+    "ellipse": {
+      "a": 340,
+      "b": 210,
+      "rot": -0.42
+    },
+    "draw_on": "1.7s 内画完",
+    "comet": {
+      "speed": 0.55,
+      "tail": 46,
+      "alpha": 0.5
+    },
+    "structure": {
+      "kind": "polar",
+      "rings": 6,
+      "spokes": 24,
+      "alpha": 0.045
+    },
+    "readout": [
+      [
+        "r",
+        "半径"
+      ],
+      [
+        "v",
+        "速度"
+      ],
+      [
+        "F",
+        "引力"
+      ]
+    ]
+  },
+  "measured": {
+    "coverage": 0.42,
+    "moving": 1.0,
+    "frame_diff": 1.9
+  },
+  "note": "轨道 + 沿线奔跑的高光是这一镜唯一的持续运动，缺了会死。"
+}

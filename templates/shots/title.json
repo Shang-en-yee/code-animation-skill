@@ -1,0 +1,11 @@
+{
+  "template": "title",
+  "version": 1,
+  "renderer": "DOM .big-cn / .big-en",
+  "params": {
+    "cn": "大字",
+    "en": "ENGLISH CAPS",
+    "entry": "0.25s 起，1.1s 上浮+去模糊"
+  },
+  "note": "开篇用。全屏只有一行字，靠光学辉光和星场撑住。"
+}

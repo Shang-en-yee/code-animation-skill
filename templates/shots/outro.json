@@ -1,0 +1,11 @@
+{
+  "template": "outro",
+  "version": 1,
+  "renderer": "DOM .big-cn / .big-en",
+  "params": {
+    "cn": "两行结论，\\n 分两行",
+    "en": "ENGLISH CAPS",
+    "fade_out": "最后 1.2s 整体淡出"
+  },
+  "note": "落版。字号 64px，行距 1.6，是全片最安静的一镜。"
+}

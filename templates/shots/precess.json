@@ -1,0 +1,40 @@
+{
+  "template": "precess",
+  "version": 1,
+  "renderer": "drawPrecess + ringTicks + drawInstrument",
+  "params": {
+    "ellipse": {
+      "a": 330,
+      "e": 0.62
+    },
+    "turns": 2.3,
+    "precession": 0.19,
+    "draw_over": "整镜 7.5s 持续绘制",
+    "head_dot": true,
+    "structure": {
+      "kind": "dial",
+      "ticks": 60,
+      "alpha": 0.1
+    },
+    "readout": [
+      [
+        "Δφ",
+        "43.0″"
+      ],
+      [
+        "T",
+        "87.97d"
+      ],
+      [
+        "e",
+        "0.2056"
+      ]
+    ]
+  },
+  "measured": {
+    "coverage": 0.4,
+    "moving": 1.0,
+    "frame_diff": 1.8
+  },
+  "note": "线头与质点必须用同一个时间参数，否则点会跑在线外面（已踩过）。"
+}

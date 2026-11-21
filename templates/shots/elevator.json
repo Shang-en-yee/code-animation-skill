@@ -1,0 +1,50 @@
+{
+  "template": "elevator",
+  "version": 2,
+  "renderer": "drawElevator3D + drawInstrument + drawLeader",
+  "params": {
+    "box": {
+      "hw": 1.15,
+      "hh": 1.55,
+      "hd": 1.15
+    },
+    "camera": {
+      "yaw0": 0.42,
+      "yawRate": 0.05,
+      "pitch": -0.18,
+      "dist": 8.4,
+      "f": 1050
+    },
+    "particles": {
+      "count": 260,
+      "fall_speed": [
+        0.35,
+        1.0
+      ]
+    },
+    "observer_dot": {
+      "bob": "sin(t*1.3)*0.06",
+      "glow_r": 46
+    },
+    "readout": [
+      [
+        "g",
+        "9.81"
+      ],
+      [
+        "a",
+        "9.79"
+      ],
+      [
+        "h",
+        "1.00"
+      ]
+    ]
+  },
+  "measured": {
+    "coverage": 0.24,
+    "moving": 0.85,
+    "frame_diff": 1.7
+  },
+  "note": "v2 改成真三维线框舱 + 自由下落粒子。之前是平面方框，覆盖率只有 14%，是全片最弱的一镜。"
+}

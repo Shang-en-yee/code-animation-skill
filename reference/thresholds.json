@@ -1,0 +1,11 @@
+{
+  "frame_diff_min": 1.5,
+  "moving_ratio_min": 0.7,
+  "coverage_min": 0.2,
+  "luma_range": [
+    16,
+    30
+  ],
+  "measure_on": "source_frames",
+  "note": "必须测源帧而不是编码后的 MP4。编码器会改写像素差：同一份内容 mp4v 测出 2.1，H.264 只有 1.5。参考片绝对值 5.73 / 0.91 / 0.336 / 41.6，其数值被 2 倍速与高亮度抬高，不必追平。"
+}

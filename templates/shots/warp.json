@@ -1,0 +1,46 @@
+{
+  "template": "warp",
+  "version": 1,
+  "renderer": "drawWarpGrid + drawSubGrid + drawInstrument + drawLeader",
+  "params": {
+    "camera": {
+      "yaw0": -0.35,
+      "yawRate": 0.045,
+      "pitch": -0.6,
+      "dist": 8.2,
+      "f": 1050
+    },
+    "plane": {
+      "n": 38,
+      "ext": 7.6,
+      "k0": 1.38,
+      "kGrow": 0.3
+    },
+    "structure": {
+      "subGrid": true,
+      "subN": 20,
+      "subAlpha": 0.055,
+      "instrument": true
+    },
+    "labels": [
+      [
+        "中心质量",
+        "MASS M"
+      ],
+      [
+        "测地线半径",
+        "RADIUS r"
+      ],
+      [
+        "曲率",
+        "CURVATURE"
+      ]
+    ]
+  },
+  "measured": {
+    "coverage": 0.549,
+    "moving": 1.0,
+    "frame_diff": 2.13
+  },
+  "note": "全片最强的一镜。三个要素：透视网格、缓慢横移的相机、三条引线标注。"
+}

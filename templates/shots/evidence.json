@@ -1,0 +1,43 @@
+{
+  "template": "evidence",
+  "version": 1,
+  "renderer": "drawLensing + drawWave + axisTicks + drawInstrument",
+  "params": {
+    "rings": 3,
+    "ring_base": 150,
+    "ring_step": 105,
+    "wave": {
+      "x0": 1120,
+      "y": 742,
+      "w": 580,
+      "h": 190,
+      "chirp": true
+    },
+    "axis": {
+      "x0": 1080,
+      "x1": 1700,
+      "y": 792,
+      "ticks": 16
+    },
+    "readout": [
+      [
+        "f",
+        "32.8Hz"
+      ],
+      [
+        "h",
+        "1.40e-21"
+      ],
+      [
+        "d",
+        "410Mpc"
+      ]
+    ]
+  },
+  "measured": {
+    "coverage": 0.38,
+    "moving": 1.0,
+    "frame_diff": 1.7
+  },
+  "note": "信息最密的一镜：环 + 波形 + 三句字幕，20 秒略赶，可考虑加到 24 秒。"
+}

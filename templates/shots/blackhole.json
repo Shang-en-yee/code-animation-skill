@@ -1,0 +1,38 @@
+{
+  "template": "blackhole",
+  "version": 1,
+  "renderer": "drawBlackHole + ringTicks + drawInstrument + drawLeader",
+  "params": {
+    "shadow_r": 168,
+    "disk_ellipses": 3,
+    "photon_ring": true,
+    "sparks": 30,
+    "structure": {
+      "rings": 2,
+      "ticks": [
+        72,
+        24
+      ]
+    },
+    "readout": [
+      [
+        "M",
+        "6.5e9 M☉"
+      ],
+      [
+        "Rs",
+        "1.9e10m"
+      ],
+      [
+        "T",
+        "6.2G"
+      ]
+    ]
+  },
+  "measured": {
+    "coverage": 0.44,
+    "moving": 1.0,
+    "frame_diff": 2.0
+  },
+  "note": "阴影必须是纯黑，光子环压在阴影边缘，吸积盘画在阴影之前（否则会被盖住）。"
+}
